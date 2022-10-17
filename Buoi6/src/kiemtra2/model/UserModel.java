@@ -96,7 +96,7 @@ public class UserModel {
             System.out.println("Email không hợp lệ, vui lòng thử lại");
             return false;
         }
-        if(!Pattern.matches(Constant.REGEX_EMAIL,email)){
+        if(!Pattern.matches(Constant.REGEX_PASSWORD,password)){
             System.out.println("Password không hợp lệ, vui lòng thử lại");
             return false;
         }
